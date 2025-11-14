@@ -75,6 +75,7 @@ export const EmailGenerator: React.FC<EmailGeneratorProps> = ({
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
+      className="max-w-xl mx-auto"
     >
       <Card className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#ff1616]/10 via-[#faa61a]/5 to-[#faa61a]/10" />

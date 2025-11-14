@@ -1,68 +1,233 @@
-# AR TEMPMAIL - Professional Temporary Email Service
+# dropmail - Professional Temporary Email Service
 
-**No Login, No Signup, Just Privacy** 🔒
+**Instant emails. Zero trace.**
 
-A modern, fully functional temporary email web application built with cutting-edge technologies and tested to perfection.
+A modern, production-ready temporary email service built with Next.js 15, React 19, and TypeScript. Generate disposable email addresses instantly with no registration required.
 
-[![Production Ready](https://img.shields.io/badge/Production-Ready-success)]()
-[![Test Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen)]()
-[![Tests Passing](https://img.shields.io/badge/Tests-25%2F25%20Passing-brightgreen)]()
+[![Next.js](https://img.shields.io/badge/Next.js-15.3.0-black)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2.0-blue)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7.0-blue)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🌟 Live Demo
+## 🌟 Overview
 
-Visit the live application at: [Your deployment URL]
+dropmail is a fully-featured temporary email service that allows users to generate disposable email addresses instantly. Perfect for protecting your privacy, testing applications, or avoiding spam. Built with modern web technologies and best practices.
 
-## ✨ Features
+## ✨ Key Features
 
 ### Core Functionality
-- ⚡ **Instant Email Generation** - Get a temporary email address immediately
-- 🎨 **Custom Email Creation** - Choose your username and domain
-- 🔄 **Multiple API Providers** - Switch between Mail.tm and 1SecMail with automatic fallback
-- 📬 **Real-time Inbox** - Auto-refreshes every 10 seconds
-- ⏰ **Email Timer** - 10-minute countdown with extend functionality
-- 🌓 **Dark/Light Mode** - Beautiful theme switching with persistent preferences
-- 📧 **Full Email Viewer** - HTML email rendering with safe content display
-- 📋 **Copy to Clipboard** - One-click email address copying
-- 🗑️ **Message Management** - Delete unwanted messages
-- 🔔 **Toast Notifications** - Elegant feedback for all actions
+- ⚡ **Instant Email Generation** - Create temporary email addresses in seconds
+- 🎨 **Custom Email Creation** - Choose your own username or use random generation
+- 🔄 **Multiple API Providers** - Integrated with Mail.tm and 1SecMail with automatic fallback
+- 📬 **Real-time Inbox** - Auto-refreshes every 5 seconds to catch new messages instantly
+- ⏰ **Smart Timer System** - 10-minute countdown with extend functionality and localStorage persistence
+- 🌍 **Bilingual Support** - Full English and French language support
+- 📧 **Full Email Viewer** - Rich HTML email rendering with safe content sanitization
+- 📋 **One-Click Copy** - Copy email addresses to clipboard instantly
+- 🗑️ **Message Management** - Delete unwanted messages with ease
+- 🔔 **Toast Notifications** - Beautiful, non-intrusive feedback for all actions
 
-### Technical Features
-- 📱 **Fully Responsive** - Perfect on mobile, tablet, and desktop
+### Technical Excellence
+- 📱 **Fully Responsive** - Optimized for mobile, tablet, and desktop devices
 - 🎭 **Smooth Animations** - Professional Framer Motion animations throughout
-- 🔐 **Secure** - XSS protection and safe HTML rendering
-- ⚡ **Fast** - Optimized performance with React best practices
-- 🛡️ **Error Handling** - Graceful degradation and user-friendly error messages
-- ♿ **Accessible** - WCAG AA compliant design
-- 🧪 **100% Tested** - Comprehensive test suite with 25/25 tests passing
+- 🔐 **Security First** - XSS protection, HTML sanitization, and secure token handling
+- ⚡ **Performance Optimized** - Fast load times, optimized re-renders, and efficient API calls
+- 🛡️ **Robust Error Handling** - Graceful degradation with user-friendly error messages
+- 💾 **State Persistence** - Email state and timer persist across browser sessions
+- 🧪 **Comprehensive Testing** - Full test suite covering API providers and components
 
-## 🛠️ Technologies
+## 🛠️ Technology Stack
 
-### Frontend
-- **React.js 18** - UI library
-- **TypeScript** - Type safety
-- **Next.js 14** - React framework with App Router
-- **TailwindCSS** - Utility-first CSS
-- **Shadcn UI** - High-quality component system
-- **Framer Motion** - Advanced animations
-- **Lucide React** - Beautiful icons
+### Frontend Framework
+- **Next.js 15.3.0** - React framework with App Router
+- **React 19.2.0** - UI library with latest features
+- **TypeScript 5.7.0** - Type-safe development
 
-### Backend APIs
-- **Mail.tm API** - Primary email provider
-- **1SecMail API** - Secondary provider with instant access
-- **Automatic Fallback** - Seamless switching on failure
+### Styling & UI
+- **TailwindCSS 3.4.18** - Utility-first CSS framework
+- **Framer Motion 12.23.0** - Production-ready motion library
+- **Lucide React** - Beautiful, customizable icons
+- **Poppins Font** - Modern, readable typography
 
-### Development
-- **ESLint** - Code linting
-- **TypeScript** - Type checking
-- **Custom Test Suite** - Comprehensive testing
-- **Git** - Version control
+### Utilities & Tools
+- **date-fns 4.1.0** - Date formatting and manipulation
+- **class-variance-authority** - Component variant management
+- **clsx & tailwind-merge** - Conditional class utilities
+
+### API Integration
+- **Mail.tm API** - Primary email provider with full CRUD support
+- **1SecMail API** - Secondary provider for instant access
+- **Automatic Fallback** - Seamless provider switching on failure
+
+### Development Tools
+- **ESLint** - Code linting and quality assurance
+- **TypeScript** - Static type checking
+- **Custom Test Suite** - Comprehensive API and component testing
+
+## 🔍 SEO Optimization
+
+dropmail is fully optimized for search engines with comprehensive SEO implementation. The following optimizations ensure maximum visibility and search engine rankings.
+
+### Meta Tags & Metadata
+- ✅ **Comprehensive Meta Tags** - Title, description, keywords, and author tags
+- ✅ **Open Graph Protocol** - Full OG tags for social media sharing (Facebook, LinkedIn)
+- ✅ **Twitter Cards** - Optimized Twitter Card metadata for rich previews
+- ✅ **Canonical URLs** - Prevents duplicate content issues
+- ✅ **Language Alternates** - Proper hreflang tags for English and French versions
+- ✅ **Mobile Optimization** - Viewport and mobile-specific meta tags
+- ✅ **Theme Colors** - Brand color integration for mobile browsers
+
+### Structured Data (Schema.org)
+- ✅ **Organization Schema** - Company information and branding
+- ✅ **WebApplication Schema** - Application details, features, and pricing
+- ✅ **FAQPage Schema** - Rich snippets for frequently asked questions
+- ✅ **BreadcrumbList Schema** - Navigation structure for search engines
+- ✅ **Service Schema** - Service type and availability information
+
+### Technical SEO
+- ✅ **Robots.txt** - Proper crawler directives and sitemap reference
+- ✅ **Dynamic Sitemap** - Auto-generated XML sitemap for all pages
+- ✅ **Semantic HTML** - Proper use of HTML5 semantic elements
+- ✅ **Fast Loading** - Optimized performance for Core Web Vitals
+- ✅ **Mobile-First** - Responsive design with mobile optimization
+- ✅ **HTTPS Ready** - Secure connection support
+
+### Content Optimization
+- ✅ **Keyword Optimization** - Strategic keyword placement and density
+- ✅ **Content Structure** - Proper heading hierarchy (H1, H2, H3)
+- ✅ **Alt Text** - Descriptive alt text for all images
+- ✅ **Internal Linking** - Proper navigation structure
+- ✅ **Bilingual Support** - SEO-friendly language switching
+
+### Social Media Integration
+- ✅ **Open Graph Images** - Custom social sharing images
+- ✅ **Twitter Card Support** - Rich Twitter preview cards
+- ✅ **Social Meta Tags** - Complete social media metadata
+
+### Performance & Core Web Vitals
+- ✅ **Fast Initial Load** - Optimized bundle size and code splitting
+- ✅ **Lazy Loading** - Images and components loaded on demand
+- ✅ **Caching Strategy** - Proper browser and CDN caching
+- ✅ **Minification** - Minified CSS, JavaScript, and HTML
+
+### SEO Features Implemented
+
+#### Files Created/Modified:
+- `app/layout.tsx` - Comprehensive metadata configuration
+- `components/StructuredData.tsx` - JSON-LD structured data schemas
+- `app/robots.ts` - Dynamic robots.txt generation
+- `app/sitemap.ts` - Dynamic XML sitemap generation
+- `public/manifest.json` - PWA manifest for mobile apps
+
+#### Key SEO Tags Included:
+```typescript
+- Title tags with templates
+- Meta descriptions (160 characters optimized)
+- Keywords (20+ relevant keywords)
+- Open Graph tags (og:title, og:description, og:image, etc.)
+- Twitter Card tags (twitter:card, twitter:title, etc.)
+- Canonical URLs
+- Language alternates (hreflang)
+- Robots meta tags
+- Theme colors
+- Apple touch icons
+- Web app manifest
+```
+
+#### Structured Data Schemas:
+1. **Organization Schema** - Brand identity and contact information
+2. **WebApplication Schema** - App features, pricing, and requirements
+3. **FAQPage Schema** - 6 common questions with answers
+4. **BreadcrumbList Schema** - Site navigation structure
+5. **Service Schema** - Service type and availability
+
+### SEO Best Practices Followed
+
+✅ **Title Optimization**
+- Primary keyword in title
+- Brand name included
+- Optimal length (50-60 characters)
+- Template-based for dynamic pages
+
+✅ **Description Optimization**
+- Compelling and informative
+- Includes primary and secondary keywords
+- Optimal length (150-160 characters)
+- Call-to-action included
+
+✅ **Keyword Strategy**
+- 20+ relevant keywords targeting:
+  - Temporary email
+  - Disposable email
+  - Privacy protection
+  - Email security
+  - Spam prevention
+
+✅ **Image Optimization**
+- Proper alt text for all images
+- Optimized image formats
+- Social sharing images (1200x630px)
+
+✅ **Mobile SEO**
+- Mobile-first responsive design
+- Touch-friendly interface
+- Fast mobile loading times
+- PWA support
+
+### Search Engine Submission
+
+After deployment, submit your sitemap to:
+- **Google Search Console** - Submit sitemap: `https://yourdomain.com/sitemap.xml`
+- **Bing Webmaster Tools** - Submit sitemap for Bing indexing
+- **Yandex Webmaster** - For international visibility
+
+### Monitoring & Analytics
+
+Recommended tools for SEO monitoring:
+- Google Search Console
+- Google Analytics 4
+- Bing Webmaster Tools
+- PageSpeed Insights
+- Lighthouse (Chrome DevTools)
+
+### SEO Checklist
+
+- [x] Meta tags optimized
+- [x] Open Graph tags implemented
+- [x] Twitter Cards configured
+- [x] Structured data (JSON-LD) added
+- [x] Robots.txt created
+- [x] Sitemap.xml generated
+- [x] Canonical URLs set
+- [x] Mobile optimization complete
+- [x] Fast loading times
+- [x] Semantic HTML structure
+- [x] Alt text for images
+- [x] Keyword optimization
+- [x] Language alternates
+- [x] PWA manifest
+
+### Environment Variables
+
+For production, set the following environment variable:
+```bash
+NEXT_PUBLIC_BASE_URL=https://yourdomain.com
+```
+
+This ensures all absolute URLs in metadata and structured data point to your production domain.
 
 ## 📦 Installation
 
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Setup Instructions
+
 1. **Clone the repository:**
 ```bash
-git clone [your-repo-url]
-cd ar-tempmail
+git clone <repository-url>
+cd "TempMail Project"
 ```
 
 2. **Install dependencies:**
@@ -70,7 +235,7 @@ cd ar-tempmail
 npm install
 ```
 
-3. **Run development server:**
+3. **Run the development server:**
 ```bash
 npm run dev
 ```
@@ -78,31 +243,39 @@ npm run dev
 4. **Open your browser:**
 Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🚀 Usage
+### Build for Production
 
-### 1. Launch the App
-- A beautiful splash screen greets you with a loading animation
+```bash
+npm run build
+npm start
+```
 
-### 2. Generate Your Email
-- **Choose Provider:** Select between Mail.tm (recommended) or 1SecMail (fast)
-- **Enter Username:** Type your custom username or leave empty for random
-- **Select Domain:** Pick from available domains
-- **Generate:** Click the button to create your email
+## 🚀 Usage Guide
 
-### 3. Receive Emails
-- Your inbox updates automatically every 10 seconds
-- Click any email to view full content
-- Delete unwanted messages
+### Getting Started
 
-### 4. Manage Your Email
-- **Copy:** Click to copy email to clipboard
-- **Extend Timer:** Add 10 more minutes before expiry
-- **Change Email:** Generate a new email address
-- **Delete Email:** Remove current email and start fresh
+1. **Launch the Application**
+   - A beautiful splash screen welcomes you with smooth loading animations
 
-### 5. Theme Toggle
-- Switch between dark and light modes
-- Preference persists across sessions
+2. **Generate Your Email**
+   - Enter an optional custom username (or leave empty for random)
+   - Select a domain from available options
+   - Click "Generate Email" to create your temporary address
+
+3. **Receive Emails**
+   - Your inbox automatically refreshes every 5 seconds
+   - Click any message to view full content
+   - Messages are marked as "seen" when opened
+
+4. **Manage Your Email**
+   - **Copy**: Click the email card to copy address to clipboard
+   - **Extend Timer**: Add 10 more minutes before expiry
+   - **Change Email**: Generate a new email address
+   - **Delete Email**: Remove current email and start fresh
+
+5. **Language Selection**
+   - Switch between English and French using the header language selector
+   - Preference is saved in localStorage
 
 ## 🧪 Testing
 
@@ -111,162 +284,117 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 npm run test
 ```
 
-### Run Specific Tests
+### Run Specific Test Suites
 ```bash
-# API tests only
+# API provider tests only
 npm run test:api
 
 # Component tests only
 npm run test:components
 ```
 
-### Test Results
-```
-🧪 AR TEMPMAIL - Comprehensive Test Suite
-==========================================
-
-📡 BACKEND & API TESTS
-======================
-✅ All 10 API tests passing
-
-🎨 FRONTEND COMPONENT TESTS
-============================
-✅ All 15 component tests passing
-
-📊 Test Results:
-✅ Passed: 25/25
-❌ Failed: 0/25
-📈 Success Rate: 100%
-```
-
-See [TESTING.md](TESTING.md) for detailed testing documentation.
-
-## 🎨 Design Features
-
-### Visual Excellence
-- 🎨 **Luxurious Gradients** - Purple, indigo, and blue color schemes
-- ✨ **Glass Morphism** - Modern frosted glass effects
-- 🌊 **Smooth Transitions** - Every interaction is animated
-- 🎯 **Hover Effects** - Interactive elements respond to user actions
-- 📝 **Professional Typography** - Space Grotesk font family
-- 🎴 **Card-based Layout** - Clean, organized interface
-- 🌈 **Shadow & Depth** - Layered design with proper elevation
-
-### Animation Details
-- Splash screen with progress bar
-- Smooth page transitions
-- Button hover and click effects
-- Card entrance animations
-- Loading state animations
-- Toast slide-in notifications
-- Icon rotation effects
-- Scale and transform animations
+### Test Coverage
+The project includes comprehensive tests covering:
+- API provider functionality (Mail.tm, 1SecMail)
+- Provider switching and fallback mechanisms
+- Component rendering and interactions
+- Error handling and edge cases
 
 ## 📁 Project Structure
 
 ```
-ar-tempmail/
+TempMail Project/
 ├── app/
-│   ├── globals.css              # Global styles + theme
-│   ├── layout.tsx               # Root layout
-│   └── page.tsx                 # Main app (fixed bugs)
+│   ├── globals.css              # Global styles and theme variables
+│   ├── layout.tsx               # Root layout with metadata
+│   └── page.tsx                 # Main application page
 ├── components/
 │   ├── ui/
-│   │   ├── button.tsx           # Button with variants
-│   │   ├── card.tsx             # Card components
-│   │   └── toast.tsx            # Toast notifications
-│   ├── ActionButtons.tsx        # Change/Delete buttons
-│   ├── EmailCard.tsx            # Email display
-│   ├── EmailGenerator.tsx       # NEW: Email customization
-│   ├── Header.tsx               # App header
-│   ├── InboxList.tsx            # Message list
-│   ├── MessageDetail.tsx        # Full message view
-│   ├── SplashScreen.tsx         # Loading screen
-│   └── TimerCard.tsx            # Countdown timer
+│   │   ├── button.tsx           # Reusable button component
+│   │   ├── card.tsx             # Card container component
+│   │   └── toast.tsx            # Toast notification system
+│   ├── EmailCard.tsx            # Email address display card
+│   ├── EmailGenerator.tsx        # Email generation interface
+│   ├── FAQSection.tsx            # Frequently asked questions
+│   ├── Footer.tsx                # Application footer
+│   ├── Header.tsx                # Navigation header with language switcher
+│   ├── HeroSection.tsx           # Landing page hero section
+│   ├── InboxList.tsx             # Message inbox list
+│   ├── MessageDetail.tsx        # Full message detail view
+│   ├── PrivacyModal.tsx         # Privacy policy modal
+│   ├── SplashScreen.tsx         # Loading splash screen
+│   ├── TermsModal.tsx           # Terms of service modal
+│   └── TimerCard.tsx             # Countdown timer display
 ├── hooks/
-│   ├── useTimer.ts              # Timer management
-│   └── useToast.ts              # Toast notifications
+│   └── useToast.ts              # Toast notification hook
 ├── lib/
-│   ├── api-providers.ts         # NEW: Multi-provider API
-│   ├── api.ts                   # Legacy API (backward compat)
-│   └── utils.ts                 # Utility functions
+│   ├── api-providers.ts         # Multi-provider API abstraction
+│   └── utils.ts                 # Utility functions (formatting, random generation)
 ├── __tests__/
-│   ├── api-providers.test.ts    # API tests
-│   └── components.test.tsx      # Component tests
+│   ├── api-providers.test.ts    # API provider tests
+│   ├── components.test.tsx       # Component tests
+│   └── comprehensive-test-suite.ts  # Full test suite
 ├── scripts/
-│   └── run-tests.ts             # Test runner
-├── public/                      # Static assets
-├── TESTING.md                   # Test documentation
-└── README.md                    # This file
+│   └── run-tests.ts             # Test runner script
+├── public/                      # Static assets (logos, icons, favicon)
+├── next.config.js               # Next.js configuration
+├── tailwind.config.ts           # TailwindCSS configuration
+├── tsconfig.json                # TypeScript configuration
+└── package.json                 # Project dependencies and scripts
 ```
+
+## 🎨 Design System
+
+### Color Palette
+- **Primary**: `#ff1616` (Red)
+- **Secondary**: `#faa61a` (Orange)
+- **Gradient**: Linear gradient from red to orange
+- **Background**: White with subtle gray accents
+
+### Typography
+- **Font Family**: Poppins (Google Fonts)
+- **Weights**: 400 (Regular), 600 (Semi-bold), 700 (Bold)
+
+### Design Principles
+- **Glass Morphism**: Modern frosted glass effects on cards
+- **Smooth Animations**: Framer Motion powered transitions
+- **Card-based Layout**: Clean, organized interface structure
+- **Responsive Design**: Mobile-first approach with breakpoints
+- **Accessibility**: WCAG AA compliant with proper semantic HTML
 
 ## 🔧 Configuration
 
-The app works out of the box with no configuration needed. It automatically:
-- Fetches available domains from selected provider
-- Generates temporary emails instantly
-- Checks for new messages every 10 seconds
-- Handles token expiry gracefully
-- Persists theme preference in localStorage
-- Falls back to alternative provider on failure
+The application works out of the box with zero configuration required. It automatically:
 
-## 🆕 What's New
+- Fetches available domains from the selected provider
+- Generates secure random passwords for accounts
+- Handles token expiry and re-authentication
+- Persists email state and timer in localStorage
+- Falls back to alternative providers on failure
+- Manages auto-refresh intervals efficiently
 
-### v1.1.0 - Major Update
+### Environment Variables
 
-#### New Features
-✅ **Custom Email Generation**
-- Choose your own username
-- Select from multiple domains
-- Random username generator
-- Real-time email preview
+No environment variables are required. All API endpoints are public and accessible.
 
-✅ **Multiple API Providers**
-- Mail.tm (recommended)
-- 1SecMail (fast access)
-- Automatic fallback mechanism
-- Provider selection UI
+## 🔐 Security Features
 
-✅ **Enhanced Error Handling**
-- Specific error messages
-- Graceful degradation
-- Better user feedback
-- Network error recovery
-
-#### Bug Fixes
-✅ Fixed infinite loop in email generation
-✅ Fixed duplicate timer warnings
-✅ Fixed memory leaks in intervals
-✅ Fixed race conditions in state updates
-✅ Improved loading state management
-✅ Better cleanup on component unmount
-
-#### Performance Improvements
-✅ Memoized callbacks
-✅ Optimized re-renders
-✅ Reduced unnecessary API calls
-✅ Better animation performance
-✅ Faster initial load
-
-## 🔐 Security
-
-- ✅ XSS protection in email display
-- ✅ HTML sanitization
-- ✅ HTTPS-only API calls
-- ✅ No API keys exposed
-- ✅ Secure password generation
-- ✅ Proper error handling
-- ✅ No sensitive data logging
+- ✅ **XSS Protection** - Safe HTML rendering with content sanitization
+- ✅ **Secure Token Management** - JWT tokens stored securely
+- ✅ **HTTPS Only** - All API calls use secure connections
+- ✅ **No Data Storage** - No personal information stored on servers
+- ✅ **Auto-cleanup** - Accounts and messages auto-delete after expiry
+- ✅ **Input Validation** - Username sanitization and validation
+- ✅ **Error Handling** - No sensitive data in error messages
 
 ## ♿ Accessibility
 
-- ✅ WCAG AA compliant
-- ✅ Keyboard navigation
-- ✅ Screen reader compatible
-- ✅ Proper focus management
-- ✅ Sufficient color contrast
-- ✅ Semantic HTML
-- ✅ Alt text for icons
+- ✅ **Semantic HTML** - Proper use of HTML5 semantic elements
+- ✅ **Keyboard Navigation** - Full keyboard support throughout
+- ✅ **Screen Reader Support** - ARIA labels and descriptions
+- ✅ **Color Contrast** - WCAG AA compliant contrast ratios
+- ✅ **Focus Management** - Visible focus indicators
+- ✅ **Alt Text** - Descriptive alt text for all images
 
 ## 🌐 Browser Support
 
@@ -274,112 +402,124 @@ The app works out of the box with no configuration needed. It automatically:
 - ✅ Firefox (latest)
 - ✅ Safari (latest)
 - ✅ Edge (latest)
-- ✅ Mobile Safari
-- ✅ Chrome Mobile
+- ✅ Mobile Safari (iOS)
+- ✅ Chrome Mobile (Android)
 
-## 📊 Performance
+## 📊 Performance Metrics
 
-- ⚡ Initial Load: < 3s
-- ⚡ Email Generation: < 2s
-- ⚡ Message Loading: < 1s
-- ⚡ 60fps Animations
-- ⚡ No memory leaks
-- ⚡ Optimized bundle size
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests: `npm run test`
-5. Submit a pull request
+- ⚡ **Initial Load**: < 3 seconds
+- ⚡ **Email Generation**: < 2 seconds
+- ⚡ **Message Loading**: < 1 second
+- ⚡ **Animation Performance**: 60fps
+- ⚡ **Bundle Size**: Optimized with Next.js
+- ⚡ **Memory Management**: No memory leaks
 
 ## 📝 API Documentation
 
-### Mail.tm API
-- Base URL: `https://api.mail.tm`
-- Features: Full CRUD operations
-- Auth: JWT tokens
-- Rate Limit: Generous
-- Docs: [docs.mail.tm](https://docs.mail.tm)
+### Mail.tm API Integration
 
-### 1SecMail API
-- Base URL: `https://www.1secmail.com/api/v1/`
-- Features: Instant email, no auth
-- Rate Limit: None
-- Docs: [1secmail.com](https://www.1secmail.com)
+**Base URL**: `https://api.mail.tm`
 
-## 💡 Tips & Tricks
+**Features**:
+- Full CRUD operations for accounts and messages
+- JWT-based authentication
+- RESTful API design
+- Generous rate limits
 
-### For Users
-- 🎯 Use custom usernames for easy remember
-- ⏰ Extend timer before it expires
-- 🔄 Manual refresh for instant updates
-- 🌙 Dark mode for comfortable viewing
-- 📋 One-click copy for convenience
+**Documentation**: [docs.mail.tm](https://docs.mail.tm)
 
-### For Developers
-- 📦 Check `TESTING.md` for detailed tests
-- 🔧 Use `api-providers.ts` for API calls
-- 🎨 Follow existing component patterns
-- ✅ Run tests before committing
-- 📝 Update docs for new features
+### 1SecMail API Integration
+
+**Base URL**: `https://www.1secmail.com/api/v1/`
+
+**Features**:
+- Instant email access (no authentication required)
+- Simple query-based API
+- No rate limits
+- Read-only message access
+
+**Documentation**: [1secmail.com](https://www.1secmail.com)
+
+## 🤝 Contributing
+
+Contributions are welcome and appreciated! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Run tests (`npm run test`)
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to the branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
+
+### Development Guidelines
+
+- Follow TypeScript best practices
+- Maintain component structure consistency
+- Write tests for new features
+- Update documentation as needed
+- Follow existing code style
 
 ## 🐛 Troubleshooting
 
-### Email not generating?
-- Check internet connection
-- Try alternative provider
-- Refresh the page
+### Common Issues
 
-### Emails not arriving?
-- Wait for auto-refresh (10s)
-- Use manual refresh button
-- Check if email is valid
+**Email not generating?**
+- Check your internet connection
+- Try refreshing the page
+- The API provider may be temporarily unavailable
 
-### Timer expired?
-- Click "Extend" to add 10 minutes
-- Or generate a new email
+**Emails not appearing?**
+- Wait for auto-refresh (5 seconds)
+- Use the manual refresh button
+- Verify the email address is correct
+
+**Timer expired?**
+- Click "Extend" to add 10 more minutes
+- Generate a new email if needed
+- Timer state persists across page refreshes
+
+**Language not changing?**
+- Clear browser cache
+- Check localStorage permissions
+- Try a different browser
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
-- [Mail.tm](https://mail.tm) for the excellent API
-- [1SecMail](https://www.1secmail.com) for instant email service
-- [Shadcn UI](https://ui.shadcn.com) for beautiful components
-- [Framer Motion](https://www.framer.com/motion/) for smooth animations
-- [Lucide](https://lucide.dev) for icons
+- [Mail.tm](https://mail.tm) - Excellent temporary email API service
+- [1SecMail](https://www.1secmail.com) - Fast, no-auth email service
+- [Next.js](https://nextjs.org) - Amazing React framework
+- [Framer Motion](https://www.framer.com/motion/) - Powerful animation library
+- [Lucide](https://lucide.dev) - Beautiful icon library
+- [TailwindCSS](https://tailwindcss.com) - Utility-first CSS framework
 
-## 📞 Support
+## 📞 Support & Contact
 
-For issues, questions, or suggestions:
-- 📧 Email: [your-email]
-- 🐛 Issues: [GitHub Issues]
-- 💬 Discussions: [GitHub Discussions]
+For issues, questions, or feature requests:
+- 🐛 [GitHub Issues](https://github.com/your-repo/issues)
+- 💬 [GitHub Discussions](https://github.com/your-repo/discussions)
 
 ## 🗺️ Roadmap
 
-### Upcoming Features
+### Planned Features
 - [ ] Email attachment support
-- [ ] Multiple inbox tabs
-- [ ] Email search functionality
+- [ ] Multiple inbox management
+- [ ] Email search and filtering
 - [ ] Export emails (PDF/JSON)
-- [ ] Custom timer durations
-- [ ] More API providers
-- [ ] PWA support
-- [ ] Email filters
-- [ ] Starred/important emails
-- [ ] Email forwarding
+- [ ] Customizable timer durations
+- [ ] Additional API providers
+- [ ] Progressive Web App (PWA) support
+- [ ] Email forwarding capabilities
+- [ ] Starred/important message marking
+- [ ] Email templates and quick actions
 
 ---
 
-**Built with ❤️ using modern web technologies**
+**Built with ❤️ using Next.js, React, and TypeScript**
 
-**Status:** ✅ Production Ready | 🧪 100% Tested | 🚀 Fully Functional
-
-**Last Updated:** November 13, 2025
+**Version**: 2.0.0  
+**Status**: ✅ Production Ready | 🧪 Tested | 🚀 Fully Functional

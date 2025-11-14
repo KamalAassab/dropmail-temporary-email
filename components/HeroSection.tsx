@@ -43,7 +43,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ language }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="py-6 sm:py-8 md:py-10 lg:py-12 px-3 sm:px-4"
+      className="py-3 sm:py-4 md:py-5 px-3 sm:px-4"
     >
       <div className="max-w-4xl mx-auto text-center px-2">
         {/* Main Heading - Responsive with proper wrapping */}
@@ -51,7 +51,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ language }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 leading-tight"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2 sm:mb-3 leading-tight"
         >
           {language === 'fr' ? (
             <>
@@ -85,7 +85,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ language }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 mb-8 sm:mb-10 md:mb-12 max-w-3xl mx-auto px-2"
+          className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 mb-4 sm:mb-5 md:mb-6 max-w-3xl mx-auto px-2"
         >
           {t.subtitle}
         </motion.p>
@@ -95,7 +95,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ language }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 px-2"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 px-2"
         >
           {t.features.map((feature, index) => (
             <motion.div
@@ -103,7 +103,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ language }) => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7 + index * 0.1 }}
-              className="bg-white rounded-xl p-3 sm:p-4 shadow-lg hover:shadow-xl transition-shadow border border-gray-100"
+              className="bg-white rounded-xl p-2 sm:p-3 shadow-lg hover:shadow-xl transition-shadow border border-gray-100"
             >
               <div className="flex items-center gap-2 sm:gap-3">
                 <div className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0 rounded-lg bg-gradient-to-r from-[#ff1616] to-[#faa61a] flex items-center justify-center">
